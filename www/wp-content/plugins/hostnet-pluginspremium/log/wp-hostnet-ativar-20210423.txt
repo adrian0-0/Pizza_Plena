@@ -1,0 +1,24 @@
+1619184867 - 20210423-13:34:27 - Commando chamado
+[
+    "astra-pro-sites",
+    "131c07e17a6d1da64cc07d6e001ca4f8"
+]
+1619184870 - 20210423-13:34:30 - Ativacao astra-pro-sites - 131c07e17a6d1da64cc07d6e001ca4f8 - Success: License successfully validated!
+1619184871 - 20210423-13:34:31 - Commando chamado
+[
+    "astra-addon",
+    "9c16ad00964e0e1c3a2a6c8f3b6f2f89"
+]
+1619184875 - 20210423-13:34:35 - Ativacao astra-addon - 9c16ad00964e0e1c3a2a6c8f3b6f2f89 - Success: License successfully validated!
+1619184876 - 20210423-13:34:36 - Commando chamado
+[
+    "uabb",
+    "e79b8f5a5fae2da618d6820a69a69f47"
+]
+1619184880 - 20210423-13:34:40 - Ativacao uabb - e79b8f5a5fae2da618d6820a69a69f47 - Success: License successfully validated!
+1619184881 - 20210423-13:34:41 - Commando chamado
+[
+    "microthemer",
+    "paypal@hostnet.com.br"
+]
+1619184881 - 20210423-13:34:41 - Ativacao microthemer - paypal@hostnet.com.br - Microthemer ativado

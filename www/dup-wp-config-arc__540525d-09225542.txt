@@ -1,0 +1,169 @@
+<?php
+
+define( 'WP_CACHE', false ); // Added by WP Rocket
+
+/**
+
+ * The base configuration for WordPress
+
+ *
+
+ * The wp-config.php creation script uses this file during the
+
+ * installation. You don't have to use the web site, you can
+
+ * copy this file to "wp-config.php" and fill in the values.
+
+ *
+
+ * This file contains the following configurations:
+
+ *
+
+ * * MySQL settings
+
+ * * Secret keys
+
+ * * Database table prefix
+
+ * * ABSPATH
+
+ *
+
+ * @link https://wordpress.org/support/article/editing-wp-config-php/
+
+ *
+
+ * @package WordPress
+
+ */
+
+
+// ** MySQL settings - You can get this info from your web host ** //
+
+/** The name of the database for WordPress */
+
+define( 'DB_NAME', '' );
+
+
+/** MySQL database username */
+
+define( 'DB_USER', '' );
+
+
+/** MySQL database password */
+
+define( 'DB_PASSWORD', '' );
+
+
+/** MySQL hostname */
+
+define( 'DB_HOST', '' );
+
+
+/** Database Charset to use in creating database tables. */
+
+define( 'DB_CHARSET', 'utf8mb4' );
+
+
+/** The Database Collate type. Don't change this if in doubt. */
+
+define( 'DB_COLLATE', '' );
+
+
+/**#@+
+
+ * Authentication Unique Keys and Salts.
+
+ *
+
+ * Change these to different unique phrases!
+
+ * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
+
+ * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.
+
+ *
+
+ * @since 2.6.0
+
+ */
+
+define( 'AUTH_KEY',         'nIjj89E`4(.)KUCGW*IT=0kuj!g,%8Z!G^O~B[eFM$90/>k%dp]DwsTW8~e_B[<H' );
+
+define( 'SECURE_AUTH_KEY',  '0Hfizd6]ohE]VAyC76[60c8h,wD}$3K=G[%WId=2}%Fu]v:,(=BVu-.mX[n*c,2F' );
+
+define( 'LOGGED_IN_KEY',    '&!=YQCM]9x]C:O~wC+bqHqS!p)g$S/s-vl7uWr<JR=[X=~TT,:p=V6Wpp(N:?)tG' );
+
+define( 'NONCE_KEY',        '&FQxs ,3:p!Oi^z1HW!Lc}v=^jhce_i E>G6]/[IpE5zo5.*V`W(zB-FzPK$VO^6' );
+
+define( 'AUTH_SALT',        'aWc;n;w$H@+{.uf<$rKPIX%DPB/7u]p4(9L[)2p?}+B~sV(QRCAJ=#wbPki{[o`i' );
+
+define( 'SECURE_AUTH_SALT', 'P1W:-i:= g:WB-jU6L$Yf_eIY2t9FQ+A?i6l0V[ =$ac]sI5s!pn-Ba6W}ER)mps' );
+
+define( 'LOGGED_IN_SALT',   '}cvIZPX!]A?(i6Fn;r<Pp[gLB-Dr>DuN41,rs$r+]r:##)C?/jiH(s|b$%2Q5zxp' );
+
+define( 'NONCE_SALT',       'u2s_rwmU5/[63st^1qRuY[xY!lz[1Iz_gEN4=J;y#!M;B#&`sF4`G#k,!wPG Og8' );
+
+
+/**#@-*/
+
+
+/**
+
+ * WordPress Database Table prefix.
+
+ *
+
+ * You can have multiple installations in one database if you give each
+
+ * a unique prefix. Only numbers, letters, and underscores please!
+
+ */
+
+$table_prefix = 'wp_';
+
+
+/**
+
+ * For developers: WordPress debugging mode.
+
+ *
+
+ * Change this to true to enable the display of notices during development.
+
+ * It is strongly recommended that plugin and theme developers use WP_DEBUG
+
+ * in their development environments.
+
+ *
+
+ * For information on other constants that can be used for debugging,
+
+ * visit the documentation.
+
+ *
+
+ * @link https://wordpress.org/support/article/debugging-in-wordpress/
+
+ */
+
+define( 'WP_DEBUG', false );
+
+
+/* That's all, stop editing! Happy publishing. */
+
+
+/** Absolute path to the WordPress directory. */
+
+if ( ! defined( 'ABSPATH' ) ) {
+
+	define( 'ABSPATH', __DIR__ . '/' );
+
+}
+
+
+/** Sets up WordPress vars and included files. */
+
+require_once ABSPATH . 'wp-settings.php';
+

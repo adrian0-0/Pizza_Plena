@@ -1,0 +1,1 @@
+<input type="<?php echo $type ?>" name="hnwaar[<?php echo $name ?>]" value="<?php echo $value ?>" size="<? echo $size ?>" />

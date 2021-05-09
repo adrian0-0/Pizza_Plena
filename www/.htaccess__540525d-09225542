@@ -1,0 +1,28 @@
+#This Apache config file was created by Duplicator Installer on 2021-04-22 03:54:27.
+#The original can be found in archived file with the name .htaccess__[HASH]
+# BEGIN WordPress
+# As diretrizes (linhas) entre "BEGIN WordPress" e "END WordPress" são
+# geradas dinamicamente e só devem ser modificadas através de filtros do WordPress.
+# Quaisquer alterações nas diretivas entre esses marcadores serão sobrescritas.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+# BEGIN WP CERBER GROOVE
+# Protection of admin scripts is enabled (CVE-2018-6389)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} ^(.*)wp-admin/+load-scripts\.php$ [OR,NC]
+RewriteCond %{REQUEST_URI} ^(.*)wp-admin/+load-styles\.php$ [NC]
+RewriteCond %{HTTP_COOKIE} !cerber_groove_x_1JSWo4Ds0CH2PmavnRFqZELMYTu83lfB=IeJ7D2HTi8YKwMxkdlSotVLj
+RewriteRule (.*) - [R=403,L]
+</IfModule>
+# END WP CERBER GROOVE

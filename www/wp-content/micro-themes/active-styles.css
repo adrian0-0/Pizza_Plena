@@ -1,0 +1,261 @@
+/*  MICROTHEMER STYLES  */
+
+
+/*= Menu principal ============ */
+
+/** Menu principal >> Menu **/
+#ast-desktop-header .ast-primary-header-bar {
+	width: 100% !important;
+	height: 85px !important;
+	position: fixed !important;
+}
+
+/** Menu principal >> Menu Links **/
+#ast-desktop-header .ast-builder-grid-row-has-sides {
+	position: relative !important;
+	bottom: 12px !important;
+	left: 15px !important;
+}
+
+/** Menu principal >> whatsapp button **/
+#menu-item-831 button {
+	width: 110% !important;
+}
+
+/** Menu principal >> Whatsapp Icon **/
+#menu-item-831 img {
+	width: 44px !important;
+	position: absolute !important;
+	top: 23px !important;
+	right: 120px !important;
+}
+
+/** Menu principal >> outline **/
+.menu-item-type-post_type > .menu-link {
+	outline: 0px !important;
+}
+
+
+/*= Conteúdo ================= */
+
+/** Conteúdo >> Preço Menu **/
+.uagb-rm__image-position-left .uagb-rm__price {
+	width: 25% !important;
+	position: absolute !important;
+	bottom: 0 !important;
+	left: 200px !important;
+}
+
+/** Conteúdo >> Acompanhamentos Preço **/
+.uagb-rm__desk-column-2 .uagb-rm__price {
+	width: 100%
+	margin: auto !important;
+	position: absolute !important;
+	top: 10px !important;
+	right: 10px !important;
+}
+
+/** Conteúdo >> Phone/Tablet imagem de destaque do cardapio **/
+#post-11 .uagb-ifb-img-src {
+	
+}
+
+/** Conteúdo >> Phone/Tablet spacer **/
+.entry-content > .wp-block-spacer:nth-of-type(7) {
+	
+}
+
+
+/*( Large Desktop )*/
+@media (min-width: 1200px) {
+
+	/*= Menu principal ============ */
+
+	/** Menu principal >> Menu **/
+	#ast-desktop-header .ast-primary-header-bar {
+	
+}
+
+	/** Menu principal >> whatsapp button **/
+	#menu-item-831 button {
+	
+}
+
+
+}
+
+
+/*( Desktop & Tablet )*/
+@media (min-width: 768px) and (max-width: 979px) {
+
+	/*= Conteúdo ================= */
+
+	/** Conteúdo >> spacer **/
+	.entry-content > .wp-block-spacer:nth-of-type(3) {
+	padding-bottom: 1px !important;
+}
+
+
+	/*= Menu principal ============ */
+
+	/** Menu principal >> Menu **/
+	#ast-desktop-header .ast-primary-header-bar {
+	
+}
+
+	/** Menu principal >> Menu Links **/
+	#ast-desktop-header .ast-builder-grid-row-has-sides {
+	
+}
+
+	/** Menu principal >> whatsapp button **/
+	#menu-item-831 button {
+	
+}
+
+	/** Menu principal >> Pizza Plena txt **/
+	.ast-builder-grid-row-container > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1) > a {
+	font-size: 27px !important;
+	font-weight: 200 !important;
+	position: static !important;
+}
+
+	/** Menu principal >> Pizza Plena Logo **/
+	#ast-desktop-header .custom-logo {
+	width: 90% !important;
+}
+
+	/** Menu principal >> Impedir quebra desktop-tablet **/
+	#ast-hf-menu-1 a {
+	position: relative !important;
+	top: 3px !important;
+}
+
+	/** Menu principal >> Tablet/Phone Off canvas **/
+	#site-navigation > div {
+	
+}
+
+
+}
+
+
+/*( Tablet & Phone )*/
+@media (max-width: 767px) {
+
+	/*= Menu principal ============ */
+
+	/** Menu principal >> Menu **/
+	#ast-desktop-header .ast-primary-header-bar {
+	
+}
+
+	/** Menu principal >> mobile/tablet main menu **/
+	#ast-mobile-header .ast-builder-grid-row-has-sides {
+	height: 90px !important;
+}
+
+	/** Menu principal >> Pizza Plena Logo **/
+	#ast-desktop-header .custom-logo {
+	
+}
+
+	/** Menu principal >> Tablet/Phone logo **/
+	#ast-mobile-header .custom-logo {
+	width: 80% !important;
+	height: 80% !important;
+}
+
+	/** Menu principal >> Tablet/Phone menu principal **/
+	#ast-mobile-header .ast-builder-grid-row-tablet-layout-default {
+	width: 100% !important;
+	position: fixed !important;
+}
+
+
+}
+
+
+/*( Phone )*/
+@media (max-width: 480px) {
+
+	/*= Menu principal ============ */
+
+	/** Menu principal >> Menu **/
+	#ast-desktop-header .ast-primary-header-bar {
+	
+}
+
+	/** Menu principal >> Menu Links **/
+	#ast-desktop-header .ast-builder-grid-row-has-sides {
+	
+}
+
+	/** Menu principal >> mobile/tablet main menu **/
+	#ast-mobile-header .ast-builder-grid-row-has-sides {
+	
+}
+
+	/** Menu principal >> outline **/
+	.menu-item-type-post_type > .menu-link {
+	
+}
+
+	/** Menu principal >> Tablet/Phone logo **/
+	#ast-mobile-header .custom-logo {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+	/** Menu principal >> Tablet/Phone menu principal **/
+	#ast-mobile-header .ast-builder-grid-row-tablet-layout-default {
+	position: fixed !important;
+}
+
+	/** Menu principal >> Tablet/Phone Off canvas **/
+	#site-navigation > div {
+	padding-top: 90px !important;
+	position: fixed !important;
+}
+
+
+	/*= Conteúdo ================= */
+
+	/** Conteúdo >> spacer **/
+	.entry-content > .wp-block-spacer:nth-of-type(3) {
+	height: 50px !important;
+}
+
+	/** Conteúdo >> Post 2 slick arrow **/
+	#post-2 .slick-arrow {
+	display: none !important;
+}
+
+	/** Conteúdo >> formulario **/
+	#post-496 {
+	width: 90% !important;
+	margin: auto !important;
+}
+
+	/** Conteúdo >> Tablet/Phone preço favoritos da clientela **/
+	#post-2 .uagb-rm__price {
+	width: 100% !important;
+	margin: auto !important;
+	position: absolute !important;
+	top: 10px !important;
+	left: 0 !important;
+}
+
+	/** Conteúdo >> Phone/Tablet imagem de destaque do cardapio **/
+	#post-11 .uagb-ifb-img-src {
+	max-width: 100% !important;
+}
+
+	/** Conteúdo >> Phone/Tablet spacer **/
+	.entry-content > .wp-block-spacer:nth-of-type(7) {
+	height: 80px !important;
+}
+
+
+}
+
